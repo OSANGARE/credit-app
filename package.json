@@ -5,9 +5,9 @@
     "react-hook-form": "^7.58.1",
     "react-router-dom": "^7.6.2",
     "styled-components": "^6.1.19"
-  }
+  },
   "scripts": {
-  "deploy": "vercel --prod",
-  "deploy:ci": "vercel --prod --token %VERCEL_TOKEN% --yes"
+    "deploy": "vercel --prod",
+    "deploy:ci": "vercel --prod --token %VERCEL_TOKEN% --yes"
   }
 }
