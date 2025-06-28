@@ -9,5 +9,5 @@
   "scripts": {
   "deploy": "vercel --prod",
   "deploy:ci": "vercel --prod --token %VERCEL_TOKEN% --yes"
-}
+  }
 }
