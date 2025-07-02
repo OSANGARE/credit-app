@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
-import { AuthService } from '../auth/AuthService';
+// Corriger l'import
+import { AuthService } from '../auth/AuthService';  // Chemin relatif correct
 
 const AuthRoute: React.FC = () => {
   return AuthService.isAuthenticated() ? <Outlet /> : <Navigate to="/login" replace />;
