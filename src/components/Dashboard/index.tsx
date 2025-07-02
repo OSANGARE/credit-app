@@ -1,3 +1,6 @@
+// Ajouter les imports manquants
+import { Statistic } from 'antd';
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Card, Table, Tag, Space, Typography, Spin, Alert } from 'antd';
 import { useAppContext } from '../../context/AppContext';
