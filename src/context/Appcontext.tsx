@@ -44,10 +44,14 @@ const reducer = (state: State, action: Action): State => {
   }
 };
 
+// Corriger la syntaxe du contexte
 const AppContext = createContext<{
   state: State;
   dispatch: Dispatch<Action>;
-}>({ state: initialState, dispatch: () => null });
+}>({ 
+  state: initialState, 
+  dispatch: () => null 
+});
 
 export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
