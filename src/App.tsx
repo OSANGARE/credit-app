@@ -3,7 +3,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Apply from './pages/Apply';
 
-function App() {
+export default function App() {
   return (
     <Router>
       <Layout>
